@@ -1,0 +1,15 @@
+Git rebase
+===================
+This is called as fastforward merge where the commits coming from a 
+branch are projected as the top most commits on master branch
+
+1 Implement step1-6 from above scenario
+
+2 To rebase test with master
+  git checkout test
+  git rebase master
+  git checkout master
+  git merge test
+
+3 Check the commit history
+  git log --oneline
