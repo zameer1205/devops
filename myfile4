@@ -1,0 +1,4 @@
+To download the code from github we can use 3 methods
+1 git clone
+2 git fetch
+3 git pull
